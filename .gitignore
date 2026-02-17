@@ -1,0 +1,27 @@
+# Build
+bin/
+obj/
+out/
+
+# IDE
+.idea/
+.vs/
+*.user
+*.suo
+
+# User secrets / env
+.env
+appsettings.*.local.json
+**/secrets.json
+
+# Test
+TestResults/
+*.trx
+*.coverage
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

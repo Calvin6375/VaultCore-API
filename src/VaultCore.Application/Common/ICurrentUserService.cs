@@ -1,0 +1,12 @@
+namespace VaultCore.Application.Common;
+
+/// <summary>
+/// Provides current request user context.
+/// </summary>
+public interface ICurrentUserService
+{
+    Guid? UserId { get; }
+    string? Email { get; }
+    bool IsAuthenticated { get; }
+    IReadOnlyList<string> Roles { get; }
+}
